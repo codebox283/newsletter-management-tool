@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Newsletter Management Tool
+
+This is a Next.js project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). The application allows users to subscribe to newsletters, manage subscriber information, and will eventually include features for creating and sending newsletters.
+
+## Getting Started
+
+First, run the development server:
 
 ## Getting Started
 
@@ -15,6 +21,16 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Future Updates
+
+### Newsletter Creation
+
+In future updates, the application will include features for:
+
+- **Creating Newsletters**: Users will be able to create new newsletters with customizable templates.
+- **Sending Newsletters**: Integration with email services to send newsletters directly to subscribers.
+- **Tracking Engagement**: Features to track open rates and engagement metrics for sent newsletters.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
