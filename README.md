@@ -22,6 +22,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Backend
+
+The backend of this application is built using **PostgreSQL**. To connect to your PostgreSQL database, you need to set up an environment variable.
+
+### Environment Variables
+
+Create a `.env` file in the root of your project and add the following variable:
+
+```bash
+DATABASE_URL=postgresql://user:password@localhost:5432/your_database_name
+```
+Replace `user`, `password`, and `your_database_name` with your actual PostgreSQL credentials and database name.
+
+
+## Features
+
+- **Subscriber Management**: Add, edit, and delete subscribers.
+- **Loading Skeletons**: Provides a better user experience while data is being fetched.
+- **Notifications**: Uses `sonner` for toast notifications on actions like adding, updating, or deleting subscribers.
+- **Responsive Design**: The application is designed to be responsive and user-friendly.
+
 ## Future Updates
 
 ### Newsletter Creation
